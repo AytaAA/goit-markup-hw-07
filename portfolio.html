@@ -12,7 +12,7 @@
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
         />
-        <link rel="stylesheet" href="./css/styles.css" />
+        <link rel="stylesheet" href="./css/main.min.css" />
     </head>
     <body>
         <header class="page-header border-bottom">
@@ -231,7 +231,7 @@
                     </ul>
                 </div>
                 <div class="footer-widget join-us">
-                    <h4 class="join-us-header">ПРИСОЕДИНЯЙТЕСЬ</h4>
+                    <p class="join-us-header">Присоединяйтесь</p>
                     <ul class="list-footer-social-icons">
                         <li class="footer-social-icons-item">
                             <a
@@ -286,6 +286,18 @@
                             </a>
                         </li>
                     </ul>
+                </div>
+                <div class="subscribe">
+                    <p class="subscribe-to-us">Подпишитесь на рассылку</p>
+
+                    <form>
+                        <input class="subscr-mail" type="email" name="e-mail" placeholder="E-mail" />
+                        <button class="subscr-btn" type="submit">
+                            Подписаться<svg class="subscr-btn-arrow-svg">
+                                <use href="./images/sprite.svg#icon-send-1"></use>
+                            </svg>
+                        </button>
+                    </form>
                 </div>
             </div>
         </footer>
