@@ -2,16 +2,16 @@ html {
     box-sizing: border-box;
 }
 
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-}
-
 body {
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: normal;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
 }
 
 a {
@@ -50,15 +50,4 @@ img {
 
 ul {
     list-style-type: none;
-}
-
-.ourprojects {
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 94px;
-    padding-bottom: 94px;
-    padding-left: 0;
-    padding-right: 0;
-    margin: 0 auto;
-    align-items: center;
 }

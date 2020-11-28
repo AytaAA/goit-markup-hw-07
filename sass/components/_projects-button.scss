@@ -22,6 +22,13 @@
     border-radius: 4px;
     border: 0;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: $hover-button-color;
+        color: $white;
+        cursor: pointer;
+    }
 }
 
 .project-button-item:not(:last-child) {
