@@ -11,6 +11,7 @@
     display: flex;
     margin-top: 0;
     margin-bottom: 0;
+    margin-right: -50px;
 
     & .link {
         display: block;
@@ -44,10 +45,11 @@
         border-radius: 2px;
         position: absolute;
     }
+}
 
-    & :not(:last-child) {
-        margin-right: 50px;
-    }
+.site-nav-item {
+    flex-basis: calc(100% / 3 - 50px);
+    margin-right: 50px;
 }
 
 .nav-nav {
